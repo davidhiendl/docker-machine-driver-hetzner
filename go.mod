@@ -2,6 +2,8 @@ module github.com/JonasProgrammer/docker-machine-driver-hetzner
 
 go 1.18
 
+replace github.com/docker/machine => gitlab.com/gitlab-org/ci-cd/docker-machine v0.16.2-gitlab.15-rc2
+
 require (
 	github.com/docker/machine v0.16.2
 	github.com/hetznercloud/hcloud-go v1.35.1
